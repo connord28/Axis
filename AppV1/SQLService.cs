@@ -13,10 +13,10 @@ namespace AppV1.Core.Services
     // TODO WTS: Change your code to use this instead of the SampleDataService.
     public static class SqlServerDataService
     {
-        // TODO WTS: Specify the connection string in a config file or below.
+        // Is not in use currently
         private static string GetConnectionString()
         {
-            return "postgres://connor:78CIdY5t7mZVIVRW@free-tier.gcp-us-central1.cockroachlabs.cloud:26257/defaultdb?sslmode=verify-full&sslrootcert=<your_certs_directory>/cc-ca.crt&options=--cluster=clever-vole-790";
+            return "";
         }
 
         public static void WriteUserName(string name)
